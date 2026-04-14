@@ -1,16 +1,16 @@
 class Tether < Formula
   desc "Persistent terminal sessions over SSH"
   homepage "https://github.com/hflsmax/tether"
-  version "0.1.17"
+  version "0.1.18"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hflsmax/tether/releases/download/v0.1.17/tether-aarch64-apple-darwin"
-      sha256 "87f927d38800247bfc244a7114476784906fabbb89f7cb7fa2a79fa22e45b33c"
+      url "https://github.com/hflsmax/tether/releases/download/v0.1.18/tether-aarch64-apple-darwin"
+      sha256 "a8163dd0b9fd5867f3b80426979765f847eaab1bbb1921de5c50204f35ac24bc"
     else
-      url "https://github.com/hflsmax/tether/releases/download/v0.1.17/tether-x86_64-apple-darwin"
-      sha256 "81e0bde003c29cc5abe37bd4f32de01bf8cc39d501cbbef287f68ab80a118e3c"
+      url "https://github.com/hflsmax/tether/releases/download/v0.1.18/tether-x86_64-apple-darwin"
+      sha256 "5d41e8de9fa4e63e5fd2a062f9e39ae4adb358067de7becb6da7cc2950ea8ad0"
     end
   end
 
